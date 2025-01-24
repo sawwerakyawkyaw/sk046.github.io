@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
+    <meta>
+        <link rel="stylesheet" type="text/css" href="[the css file]">
+    <meta>
 <head>
     <title>[Wera's Wizard Acadamy]</title>
 </head>
 <body>
-    <h1>[Welcome to my portal where you can learn all about my Wizard Academy Journery]</h1>
+    <h1>[Welcome to my Computer Graphics Wizard Academy Journery]</h1>
     <p>[The Portal of Wera's Computer Graphics wiz·ard·ry]</p>
+    <button onclick="castSpell()">Click to Cast a Spell!</button>
+     <p id="spellResult"></p>
+     <script>
+     function castSpell() {
+         document.getElementById("spellResult").innerText = "Your spell has been cast successfully!";
+     }
+     </script>
 </body>
 </html>
